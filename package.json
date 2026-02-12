@@ -1,0 +1,40 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "Web de noticias y contenido del Córdoba CF con estética verde y dorada, inspirada en la estructura de MalagaCF.com. Incluirá el logo de \"Sentimiento Cordobé\" y contenido de demostración estático.",
+  "homepage": "https://github.com/javigarzon1/CordobaCF#readme",
+  "bugs": {
+    "url": "https://github.com/javigarzon1/CordobaCF/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/javigarzon1/CordobaCF.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.24",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.18"
+  },
+  "dependencies": {
+    "baseline-browser-mapping": "^2.9.19",
+    "browserslist": "^4.28.1",
+    "caniuse-lite": "^1.0.30001769",
+    "electron-to-chromium": "^1.5.286",
+    "escalade": "^3.2.0",
+    "fraction.js": "^5.3.4",
+    "nanoid": "^3.3.11",
+    "node-releases": "^2.0.27",
+    "picocolors": "^1.1.1",
+    "postcss-value-parser": "^4.2.0",
+    "source-map-js": "^1.2.1",
+    "update-browserslist-db": "^1.2.3"
+  },
+  "keywords": []
+}
