@@ -1,7 +1,8 @@
 import { jugadores } from "../data/mockData";
 import { User } from "lucide-react";
+import { Link } from "react-router-dom";
 
-const grupos = ["Porteros", "Defensas", "Centrocampistas", "Delanteros"] as const;
+const grupos = ["Porteros", "Defensas", "Mediocentros", "Delanteros"] as const;
 
 export default function Plantilla() {
   return (
@@ -19,12 +20,22 @@ export default function Plantilla() {
             </h2>
             <div className="grid gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
               {jugadoresGrupo.map((j) => (
-                <div
+                <Link
+                  to={`/plantilla/${j.dorsal}`}
                   key={j.dorsal}
                   className="group flex items-center gap-4 rounded-lg border bg-card p-4 shadow-sm transition-shadow hover:shadow-md"
                 >
-                  <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-full bg-primary text-primary-foreground">
-                    <User size={24} />
+                  <div className="flex h-14 w-14 shrink-0 items-center justify-center overflow-hidden rounded-full bg-primary">
+                    {j.foto ? (
+                      <img
+                        src={j.foto}
+                        alt={j.nombre}
+                        className="h-full w-full object-cover"
+                        loading="lazy"
+                      />
+                    ) : (
+                      <User size={24} className="text-primary-foreground" />
+                    )}
                   </div>
                   <div>
                     <p className="font-display text-lg font-bold text-card-foreground">
@@ -33,7 +44,7 @@ export default function Plantilla() {
                     </p>
                     <p className="text-sm text-muted-foreground">{j.posicion}</p>
                   </div>
-                </div>
+                </Link>
               ))}
             </div>
           </section>

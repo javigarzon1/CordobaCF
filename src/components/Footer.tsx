@@ -44,7 +44,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-8 border-t border-primary-foreground/20 pt-4 text-center text-xs text-primary-foreground/50">
-          © 2025 Sentimiento Cordobé. Todos los derechos reservados.
+          © 2026 Creada por Javier Garzón. Todos los derechos reservados.
         </div>
       </div>
     </footer>
