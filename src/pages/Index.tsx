@@ -146,7 +146,6 @@ export default function Index() {
               Redes Sociales
             </h3>
             <div className="space-y-2 text-sm text-muted-foreground">
-              <p>📘 Facebook: /SentimientoCordobé</p>
               <p>🐦 Twitter: @SentCordoba</p>
               <p>📸 Instagram: @sentimientocordobe</p>
               <p>📺 YouTube: Sentimiento Cordobé</p>
