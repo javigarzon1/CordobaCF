@@ -27,16 +27,16 @@ export const noticias: Noticia[] = [
   {
     id: 3,
     titulo: "Pinchazo del Castellón, Albacete y Málaga",
-    resumen: "Victoria a domicilio ante Las Palmas (1-2) que confirma el gran momento de forma del equipo califal.",
-    imagen: "https://static.grupojoly.com/clip/f9e60af3-85cc-403d-8f64-d28be04be2f9_16-9-aspect-ratio_1600w_0.webp",
-    fecha: "24 Ene 2026",
+    resumen: "Pinchazo de interés cordobesista",
+    imagen: "https://estaticos-cdn.prensaiberica.es/clip/98612b69-79af-43fa-a0ad-200fee609648_alta-libre-aspect-ratio_default_0_x600y267.jpg",
+    fecha: "7 Mar 2026",
     destacada: true,
   },
   {
     id: 4,
     titulo: "3 derrotas consecutivas que pesan",
     resumen: "El Córdoba encadena 3 derrotas consecutivas y busca cortar la mala racha cuanto antes",
-    imagen: "https://www.cordobahoy.es/album/deportes/fotogaleria-debacle-cordoba-cf-andorra-fc-que-paso-encima-1-4-imagenes/20260303011915192666.html",
+    imagen: "https://statics-maker.llt-services.com/cor/images/2026/03/03/xlarge/e6720434-2fd9-4fbc-aaff-429cf724813d-140.JPG",
     fecha: "7 Mar 2026",
   },
 ];
