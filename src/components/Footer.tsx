@@ -31,7 +31,10 @@ export default function Footer() {
             {["Plantilla", "Clasificación", "Calendario", "Partidos", "Tienda"].map((s) => (
               <Link
                 key={s}
-                to={`/${s.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "")}`}
+                to={`/${s
+                  .toLowerCase()
+                  .normalize("NFD")
+                  .replace(/[\u0300-\u036f]/g, "")}`}
                 className="text-sm text-primary-foreground/70 transition-colors hover:text-secondary"
               >
                 {s}
@@ -75,6 +78,24 @@ export default function Footer() {
               >
                 <Youtube size={24} />
               </a>
+
+              <a
+  href="https://www.tiktok.com/@sentimiento_cordobe"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="text-primary-foreground/70 transition-all hover:text-black hover:scale-110"
+  aria-label="TikTok Sentimiento Cordobé"
+>
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="24"
+    height="24"
+    fill="currentColor"
+    viewBox="0 0 24 24"
+  >
+    <path d="M9 3v12.5a3.5 3.5 0 1 1-3.5-3.5h1V9h-1A6.5 6.5 0 1 0 12 15.5V8.8c1.1.9 2.5 1.4 4 1.4V7.2c-1.2 0-2.3-.5-3.1-1.3A4.5 4.5 0 0 1 11.5 3H9z"/>
+  </svg>
+</a>
             </div>
           </div>
         </div>
