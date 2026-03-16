@@ -12,7 +12,7 @@ export interface Noticia {
 export const noticias: Noticia[] = [
   {
     id: 1,
-    slug: "Los fallos defensivos vuelven a penalizar al Córdoba",
+    slug: "Los-fallos-defensivos-vuelven-a-penalizar-al-Córdoba",
     titulo: "Los fallos defensivos vuelven a penalizar al Córdoba",
     resumen: "Los fallos defensivos nos volvieron a condenar",
     imagen: "https://statics-maker.llt-services.com/cor/images/2026/03/08/xlarge/75cd27cb-74ae-40d3-8e4f-1248a0b2c1e9-539.jpg",
@@ -22,7 +22,7 @@ export const noticias: Noticia[] = [
   },
   {
     id: 2,
-    slug: "Orgullo sin premio en casa del líder",
+    slug: "Orgullo-sin-premio-en-casa-del-líder",
     titulo: "Orgullo sin premio en casa del líder",
     resumen: "El Córdoba planta cara al líder, pero vuelve a caer",
     imagen: "https://statics-maker.llt-services.com/cor/images/2026/03/08/xlarge/333161dd-1faa-4320-8985-5be1b4121d71-403.jpg",
@@ -32,7 +32,7 @@ export const noticias: Noticia[] = [
   },
   {
     id: 3,
-    slug: "El Córdoba planta cara al Racing, pero vuelve a caer (4-3) ",
+    slug: "El Córdoba-planta-cara-al-Racing",
     titulo: "El Córdoba planta cara al Racing, pero vuelve a caer (4-3) ",
     resumen: "El Córdoba planta cara al Racing, pero vuelve a caer",
     imagen: "https://statics-maker.llt-services.com/cor/images/2026/03/08/xlarge/52a08d76-280f-4238-bead-07b4b1905e22-299.jpg",
@@ -42,7 +42,7 @@ export const noticias: Noticia[] = [
   },
   {
     id: 4,
-    slug: "4 derrotas consecutivas que pesan",
+    slug: "4-derrotas-consecutivas",
     titulo: "4 derrotas consecutivas que pesan",
     resumen: "El Córdoba encadena su peor racha con Iván Ania al mando",
     imagen: "https://statics-maker.llt-services.com/cor/images/2026/03/08/xlarge/c0d1be71-9acd-4ea3-bb33-7c44cfc75b30-452.jpg",
