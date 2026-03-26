@@ -37,7 +37,7 @@ Dani Requena.`,
     titulo: "Rueda de prensa de Iván Ania antes del partido contra el Mirandés",
     resumen:
       "Rueda de prensa de Iván Ania antes del partido contra el Mirandés, destacando la importancia de El Arcángel para romper la mala racha.",
-    imagen:"  Rueda de prensa completa: https://www.youtube.com/watch?v=ej4j34wxxs",  
+    imagen:"https://estaticos-cdn.prensaiberica.es/clip/d351510d-ef87-4172-a72d-f4176df5d044_alta-libre-aspect-ratio_default_0_x768y341.jpg",  
     fecha: "26 Mar 2026",
     contenido: `En la rueda de prensa de esta mañana, el técnico cordobesista Iván Ania comentaba lo siguiente sobre el equipo: 
     "Esta plantilla está diseñada para una manera de jugar. Seguiremos con nuestra con nuestra idea. No voy a a tirar todo 
