@@ -12,8 +12,8 @@ export interface Noticia {
 export const noticias: Noticia[] = [
    {
     id: 1,
-    slug: "Bajas-Mirandes",
-    titulo: "Parte de bajas del Córdoba CF.",
+    slug: "dia-de-partido-cordoba-mirandes",
+    titulo: "Partido sin ilusión Córdoba CF.",
     resumen:
       "Dia de partido. Córdoba-Mirandés. Liga Hypermothion (Jornada 32) 19:00.",
     imagen: "https://www.instagram.com/p/DWW-rorisXm/media/?size=l",    
