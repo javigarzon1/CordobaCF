@@ -24,9 +24,8 @@ export const noticias: Noticia[] = [
     en el minuto 89, cuando un defensor jabato le propinó una carga que terminó con el blanquiverde sobre el césped mostrando dolor en su rodilla. Aunque pudo marcharse sustituido sobre su propio pie, 
     
     la gravedad de la lesión se pudo confirmar tras someterse a las pruebas realizadas por el club. Según ha podido anunciar la entidad mediante un comunicado médico, Adilson ha sufrido "un esguince de su rodilla izquierda con rotura parcial del ligamento cruzado anterior". `,
-destacada: true,} 
-  
-  
+destacada: true,
+}, 
   {
     id: 2,
     slug: "empate-sin-ilusion-del-cordoba-cf",
