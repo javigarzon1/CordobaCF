@@ -94,6 +94,21 @@ export default function Index() {
               ))}
             </div>
           </section>
+
+          {/* Instagram Section */}
+          <section>
+            <h2 className="mb-4 font-display text-xl font-bold uppercase tracking-wide text-foreground">
+              Últimas Publicaciones en Instagram
+            </h2>
+            <div className="rounded-lg border bg-card p-4 shadow-sm">
+              <blockquote
+                className="instagram-media"
+                data-instgrm-permalink="https://www.instagram.com/sentimiento_cordobe/?hl=es"
+                data-instgrm-version="14"
+                style={{ maxWidth: '540px', width: '100%' }}
+              ></blockquote>
+            </div>
+          </section>
         </div>
 
         {/* Sidebar */}
