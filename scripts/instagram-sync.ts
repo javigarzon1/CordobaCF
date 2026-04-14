@@ -1,3 +1,4 @@
+/// <reference types="node" />
 import fs from "fs"
 import Parser from "rss-parser"
 
