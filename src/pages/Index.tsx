@@ -1,4 +1,3 @@
-// Hooks de React para estado y efectos
 import { useState, useEffect } from "react";
 
 // Iconos
@@ -199,7 +198,7 @@ export default function Index() {
               </p>
 
               <p className="mt-1 text-sm">
-                {proximoPartido.fecha} · {proximoPartido.hora}
+                {proximoPartido.fecha}
               </p>
 
             </div>

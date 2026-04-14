@@ -234,7 +234,7 @@ export interface Jornada {
   estadio: string;
   resultado?: string;
   local: boolean;
-  victoria: boolean | null; // true para victoria, false para derrota, null para partidos no disputados
+  victoria: boolean | null; // true para victoria, false para derrota, null para empates y no disputa
 }
 export const RESULTADOS: Jornada[] = [
   { jornada: 1, fecha: "18/08/2025", rival: "Sporting de Gijón", estadio: "El Molinón", resultado: "2 - 1", local: false, victoria: false },
