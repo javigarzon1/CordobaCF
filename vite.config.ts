@@ -3,6 +3,7 @@ import react from "@vitejs/plugin-react-swc";
 import path from "path";
 import componentTagger from "vite-plugin-component-tagger";
 
+
 export default defineConfig(({ mode }) => {
   return {
     server: {
