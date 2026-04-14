@@ -1,32 +1,33 @@
-import { useParams } from "react-router-dom";
-import { noticias } from "../data/mockData";
+import { useParams } from "react-router-dom"
+import { noticia, type Noticia } from "../data/noticias"
 
-export default function Noticia() {
-  const { slug } = useParams();
+export default function Noticia(): JSX.Element {
 
-  const noticia = noticias.find((n) => n.slug === slug);
+  const { slug } = useParams<{ slug: string }>()
 
-  if (!noticia) {
-    return <div className="container mx-auto p-6">Noticia no encontrada</div>;
+  const noticiaEncontrada: Noticia | undefined = noticia.find(
+    (n) => n.slug === slug
+  )
+
+  if (!noticiaEncontrada) {
+    return <div className="container mx-auto p-6">Noticia no encontrada</div>
   }
 
   return (
     <div className="container mx-auto px-4 py-10 max-w-4xl">
+
       <img
-        src={noticia.imagen}
-        alt={noticia.titulo}
+        src={noticiaEncontrada.imagen || "/placeholder.jpg"}
+        alt={noticiaEncontrada.titulo || ""}
         className="w-full rounded-lg mb-6"
       />
 
-      <p className="text-sm text-secondary mb-2">{noticia.fecha}</p>
+      <p>{noticiaEncontrada.fecha}</p>
 
-      <h1 className="text-3xl md:text-4xl font-display font-bold mb-6">
-        {noticia.titulo}
-      </h1>
+      <h1>{noticiaEncontrada.titulo}</h1>
 
-      <div className="text-lg text-muted-foreground whitespace-pre-line leading-relaxed">
-        {noticia.contenido}
-      </div>
+      <div>{noticiaEncontrada.contenido}</div>
+
     </div>
-  );
+  )
 }

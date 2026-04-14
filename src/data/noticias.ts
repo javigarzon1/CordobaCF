@@ -11,4 +11,4 @@ export interface Noticia {
   destacada?: boolean
 }
 
-export const noticias = []
+export const noticia: Noticia[] = []
