@@ -12,7 +12,7 @@ export interface Noticia {
   destacada?: boolean
 }
 
-export const noticias = [
+export const noticias: Noticia[] = [
   {
     "id": 1,
     "slug": "fin-de-la-jornada-retro-35-el-cordoba-continua-12-tras-encadenar-2-victorias-consecutivas-ascenso-directo-13",
